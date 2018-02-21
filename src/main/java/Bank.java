@@ -8,9 +8,14 @@
  * @see <a href="https://cs125.cs.illinois.edu/lab/8/">Lab 8 Description</a>
  */
 public class Bank {
-
+    /**
+     *
+     */
     public String bankName;
 
+    /**
+     *
+     */
     public Bank() {
         bankName = "Illini Bank";
     }
@@ -26,9 +31,7 @@ public class Bank {
      * @return boolean
      */
     public boolean withdrawMoney(final BankAccount bankAccount, final double amount) {
-        /*
-         * Implement this function
-         */
+        return false;
     }
 
     /**
@@ -42,6 +45,7 @@ public class Bank {
      * @return boolean
      */
     public boolean depositMoney(final BankAccount bankAccount, final double amount) {
+        return false;
         /*
          * Implement this function
          */
@@ -61,6 +65,7 @@ public class Bank {
 
     public boolean transferMoney(final BankAccount source, final BankAccount destination,
             final double amount) {
+        return false;
         /*
          * Implement this function
          */
@@ -89,6 +94,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return 0;
     }
 
     /**
