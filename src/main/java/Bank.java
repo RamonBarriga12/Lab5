@@ -11,7 +11,7 @@ public class Bank {
     /**
      *
      */
-    public String bankName;
+    private String bankName;
 
     /**
      *
@@ -84,7 +84,10 @@ public class Bank {
          */
     }
 
-    public static int totalAccounts = 0;
+    /**
+     *
+     */
+    private static int totalAccounts = 0;
     /**
      * Uses static variable to get number of bank accounts opened.
      *

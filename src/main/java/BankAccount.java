@@ -57,7 +57,7 @@ public class BankAccount {
     /**
      *
      */
-    public BankAccountType accountType;
+    private BankAccountType accountType;
     /**
      *
      */
@@ -69,7 +69,7 @@ public class BankAccount {
     /**
      *
      */
-    public double interestRate;
+    private double interestRate;
     /**
      *
      */
@@ -94,7 +94,7 @@ public class BankAccount {
      *
      * @return checkings.
      */
-    public int getCheckings(){
+    public int getCheckings() {
         return this.checkings;
     }
 
